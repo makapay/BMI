@@ -28,273 +28,214 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            pictureBox1 = new PictureBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            panel1 = new Panel();
+            pictureBox6 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            label2 = new Label();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::BMI_calcPavlova.Properties.Resources.map1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 100);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(517, 488);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(pictureBox1, "pictureBox1");
+            pictureBox1.Image = Properties.Resources.map1;
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Image = global::BMI_calcPavlova.Properties.Resources._1;
-            this.button1.Location = new System.Drawing.Point(298, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 61);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button1, "button1");
+            button1.Image = Properties.Resources._1;
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // button2
             // 
-            this.button2.Image = global::BMI_calcPavlova.Properties.Resources._2;
-            this.button2.Location = new System.Drawing.Point(353, 250);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(61, 61);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            resources.ApplyResources(button2, "button2");
+            button2.Image = Properties.Resources._2;
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            this.button3.Image = global::BMI_calcPavlova.Properties.Resources._3;
-            this.button3.Location = new System.Drawing.Point(335, 352);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(61, 61);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            resources.ApplyResources(button3, "button3");
+            button3.Image = Properties.Resources._3;
+            button3.Name = "button3";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            this.button4.Image = global::BMI_calcPavlova.Properties.Resources._4;
-            this.button4.Location = new System.Drawing.Point(468, 457);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(61, 61);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button4, "button4");
+            button4.Image = Properties.Resources._4;
+            button4.Name = "button4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
-            this.button5.Image = global::BMI_calcPavlova.Properties.Resources._5;
-            this.button5.Location = new System.Drawing.Point(277, 527);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(61, 61);
-            this.button5.TabIndex = 5;
-            this.button5.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button5, "button5");
+            button5.Image = Properties.Resources._5;
+            button5.Name = "button5";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
-            this.button6.Image = global::BMI_calcPavlova.Properties.Resources._6;
-            this.button6.Location = new System.Drawing.Point(118, 477);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(61, 61);
-            this.button6.TabIndex = 6;
-            this.button6.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button6, "button6");
+            button6.Image = Properties.Resources._6;
+            button6.Name = "button6";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
-            this.button7.Image = global::BMI_calcPavlova.Properties.Resources._7;
-            this.button7.Location = new System.Drawing.Point(73, 395);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(61, 61);
-            this.button7.TabIndex = 7;
-            this.button7.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button7, "button7");
+            button7.Image = Properties.Resources._7;
+            button7.Name = "button7";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
-            this.button8.Image = global::BMI_calcPavlova.Properties.Resources._8;
-            this.button8.Location = new System.Drawing.Point(57, 250);
-            this.button8.Name = "button8";
-            this.button8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button8.Size = new System.Drawing.Size(61, 61);
-            this.button8.TabIndex = 8;
-            this.button8.UseVisualStyleBackColor = true;
+            resources.ApplyResources(button8, "button8");
+            button8.Image = Properties.Resources._8;
+            button8.Name = "button8";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.Chartreuse;
-            this.button9.Location = new System.Drawing.Point(209, 134);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 50);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "start";
-            this.button9.UseVisualStyleBackColor = false;
+            resources.ApplyResources(button9, "button9");
+            button9.BackColor = Color.Chartreuse;
+            button9.Name = "button9";
+            button9.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.Chartreuse;
-            this.button10.Location = new System.Drawing.Point(364, 527);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 50);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "start";
-            this.button10.UseVisualStyleBackColor = false;
+            resources.ApplyResources(button10, "button10");
+            button10.BackColor = Color.Chartreuse;
+            button10.Name = "button10";
+            button10.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.Chartreuse;
-            this.button11.Location = new System.Drawing.Point(37, 339);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 50);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "start";
-            this.button11.UseVisualStyleBackColor = false;
+            resources.ApplyResources(button11, "button11");
+            button11.BackColor = Color.Chartreuse;
+            button11.Name = "button11";
+            button11.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(588, 100);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(284, 383);
-            this.panel1.TabIndex = 12;
-            this.panel1.Visible = false;
+            resources.ApplyResources(panel1, "panel1");
+            panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(pictureBox6);
+            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(pictureBox4);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Name = "panel1";
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::BMI_calcPavlova.Properties.Resources.map_icon_medical2;
-            this.pictureBox6.Location = new System.Drawing.Point(15, 329);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(61, 51);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Visible = false;
+            resources.ApplyResources(pictureBox6, "pictureBox6");
+            pictureBox6.Image = Properties.Resources.map_icon_medical2;
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::BMI_calcPavlova.Properties.Resources.map_icon_information2;
-            this.pictureBox5.Location = new System.Drawing.Point(15, 273);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Visible = false;
+            resources.ApplyResources(pictureBox5, "pictureBox5");
+            pictureBox5.Image = Properties.Resources.map_icon_information2;
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::BMI_calcPavlova.Properties.Resources.map_icon_toilets2;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 217);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Visible = false;
+            resources.ApplyResources(pictureBox4, "pictureBox4");
+            pictureBox4.Image = Properties.Resources.map_icon_toilets2;
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::BMI_calcPavlova.Properties.Resources.map_icon_energy_bars1;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 161);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Visible = false;
+            resources.ApplyResources(pictureBox3, "pictureBox3");
+            pictureBox3.Image = Properties.Resources.map_icon_energy_bars1;
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::BMI_calcPavlova.Properties.Resources.map_icon_drinks1;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 105);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
+            resources.ApplyResources(pictureBox2, "pictureBox2");
+            pictureBox2.Image = Properties.Resources.map_icon_drinks1;
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.TabStop = false;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(15, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = ".";
-            this.label2.Visible = false;
+            resources.ApplyResources(label2, "label2");
+            label2.Name = "label2";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(50, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = ".";
-            this.label1.Visible = false;
+            resources.ApplyResources(label1, "label1");
+            label1.Name = "label1";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 631);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form2";
-            this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = AutoScaleMode.None;
+            Controls.Add(panel1);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
+            Name = "Form2";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
